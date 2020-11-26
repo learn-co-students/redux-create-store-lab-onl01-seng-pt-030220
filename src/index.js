@@ -36,6 +36,6 @@ function render() {
 };
 
 // Use your createStore function and the functions provided here to create a store.
-const store = createStore(candyReducer)
+let store = createStore(candyReducer)
 // Once the store is created, call an initial dispatch.
 store.dispatch({type: '@@INIT'})
